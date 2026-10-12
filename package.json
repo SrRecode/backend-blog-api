@@ -1,0 +1,16 @@
+{
+  "name": "backend-blog-api",
+  "version": "1.0.0",
+  "description": "A zero-dependency blog REST API (posts + comments) on node:http",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
